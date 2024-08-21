@@ -12,7 +12,7 @@
     Name <input type="text" name="complete_name" /><br />
     Email <input name="email" type="email" /><br />
 
-    <button type="button">
+    <button type="submit">
         Proceed Next
     </button>
 </form>

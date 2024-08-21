@@ -1,3 +1,10 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $complete_name = $_POST['complete_name'];
+    $email = $_POST['email'];
+    $agree = $_POST['agree'];
+}
+?>
 <html>
 <head>
     <meta charset="utf-8">
@@ -7,13 +14,10 @@
 
 <h1>Quiz</h1>
 
-<form method="" action="">
-
-    <h2>User Details</h2>
-
-    Name <input type="text" name="complete_name" /><br />
-    Email <input name="email" type="email" /><br />
-
+<form method="POST" action="result.php">
+    <input type="hidden" name="complete_name" value="<?php echo $complete_name; ?>" />
+    <input type="hidden" name="email" value="<?php echo $email; ?>" />
+    <input type="hidden" name="agree" value="<?php echo $agree; ?>" />
     <h2>This essential gas is important so that we can breath.</h2>
 
     <h4>Choices</h4>
@@ -30,8 +34,8 @@
     <input type="radio" name="answer_2" value="C" /> Venus<br />
     <input type="radio" name="answer_2" value="D" /> Mercury<br />
 
-    <button type="button">
-        Submit
+    <button type="submit">
+        Real Submit
     </button>
 </form>
 

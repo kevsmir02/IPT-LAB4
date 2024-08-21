@@ -5,10 +5,10 @@
 
     <h4>File Upload</h4>
 
-    <form>
+    <form method="POST" action="file-uploader.php" >
         <h3>Text File</h3>
         <input type="file" name="text_file" accept=".txt" />
-        <button>
+        <button type="submit">
             Upload
         </button>
     </form>
