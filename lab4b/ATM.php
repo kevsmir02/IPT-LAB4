@@ -9,11 +9,11 @@ class ATM {
     }
 
     public function identifies() {
-        return false; // Placeholder
+        return false; 
     }
 
     public function transactions() {
-        return false; // Placeholder
+        return false;
     }
 
     public function getLocation() {

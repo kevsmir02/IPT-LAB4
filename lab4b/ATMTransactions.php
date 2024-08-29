@@ -15,7 +15,7 @@ class ATMTransactions {
     }
 
     public function modifies() {
-        return false; // Placeholder
+        return false; 
     }
 
     public function getTransactionId() {

@@ -8,7 +8,7 @@ class SavingAccount extends Account {
     }
 
     public function withdraw($amount) {
-        return false; // Placeholder
+        return false; 
     }
 }
 ?>

@@ -9,11 +9,11 @@ class Bank {
     }
 
     public function manages() {
-        return false; // Placeholder
+        return false; 
     }
 
     public function maintains() {
-        return false; // Placeholder
+        return false; 
     }
 
     public function getCode() {

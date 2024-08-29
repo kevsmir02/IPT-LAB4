@@ -9,15 +9,15 @@ class Account {
     }
 
     public function deposit($amount) {
-        return false; // Placeholder
+        return false; 
     }
 
     public function withdraw($amount) {
-        return false; // Placeholder
+        return false; 
     }
 
     public function createTransaction() {
-        return false; // Placeholder
+        return false; 
     }
 
     public function getAccountNumber() {
